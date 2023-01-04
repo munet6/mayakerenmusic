@@ -17,70 +17,24 @@
 
   <link rel="stylesheet" href="main.css">
 <body>
-  
-  Sorry, this site is under construction as I learn html!
-  
+
   <!-- new stuff here! -->
   <!-- the container for everything -->
-  <div class="container-fluid">
-    
-    <!-- a single row that will contain two columns -->
-    <div class="row">
-      
-      <!-- column for index with rows for the different jawns (1/6 of the page) -->
-      <div class="col-2 px-5">
-        
-        <!-- container to put rows in the column. is this necessary? --> 
-        <div class="container">
-          
-          <!-- home link row -->
-          <div class="row">
-            <a href="index.html"><h1 class="ml-5 pl-5 body-kerning home-link">maya keren</h1></a>
-            <br>
-          </div>
-
-          <!-- rows for the other index items -->
-          <div class="row">
-            about
-            <span class="text-link-home text-link">
-                      <a href="about.html" class=""><h4>about</h4></a>
-            </span>
-            <br>
-          </div>
-
-          <div class="row">
-            calendar
-            <span class="text-link-home text-link">
-                      <a href="calendar.html" class=""><h4>calendar</h4></a>
-            </span>
-            <br>
-          </div>
-
-          <div class="row">
-            watch
-            <span class="text-link-home text-link">
-                      <a href="watch.html" class=""><h4>watch</h4></a
-            </span>
-            <br>
-          </div>
-
-          <div class="row">
-            listen
-            <span class="text-link-home text-link">
-                      <a href="listen.html" class=""><h4>listen</h4></a>
-            </span>
-            <br>
-          </div>
-            
-        </div>
-        
-      </div>
-           
-      <!-- column for the image (still in the big row), 5/6 of the page-->
-      <div class="col-10">
-        <img src="img/website_background.jpg" alt="dream doodle art" style="width:1366px;height:768px;">>
-      </div>
-      
+  <div class="row h-100">
+    <div class="col-2 px-5 pl-3 menuColumn">
+      <a href="index.html"><h1 class="py-3 body-kerning home-link">maya keren</h1></a>
+      <br><br>
+      <a href="about.html" class="pl-10 text-link"><h4>about</h4></a>
+      <br><br>
+      <a href="calendar.html" class="pl-10 text-link"><h4>calendar</h4></a>
+      <br><br>
+      <a href="watch.html" class="pl-10 text-link" ><h4>watch</h4></a>
+      <br><br>
+      <a href="listen.html" class="pl-10 text-link" ><h4>listen</h4></a>
+      <br><br>
+    </div>
+    <div class="col-10 picColumn">
+      <img src="img/website_background.jpg" class='home-img' alt="dream doodle art"/>
     </div>
   </div>
 
