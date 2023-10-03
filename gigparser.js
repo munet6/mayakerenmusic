@@ -15,7 +15,7 @@ async function fetchData() {
     }
 
     const data = await response.json();
-    return JSON.parse(data.contents).data;
+    return data.data;
 }
 
 function makeGigContainerDiv(gigs, containerId) {
