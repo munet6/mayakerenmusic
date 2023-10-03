@@ -9,15 +9,7 @@ async function main() {
 }
 
 async function fetchData() {
-    const gSheetParserApi = 'https://api.fureweb.com/spreadsheets/';
-    const spreadsheetId = '1fKKiIiP8w7GAT61rk46NE1M7xaTUkGcQ-CEi2pqOQX0';
-
-    // note that the api in the line below is probably the most likely component to break
-    // there's plenty of alternatives available online though, just google "cors anywhere replacement"
-    const corsApiTool = 'https://api.allorigins.win/get?url=';
-    var url = corsApiTool + encodeURIComponent(gSheetParserApi + spreadsheetId);
-
-    const response = await fetch(url);
+    const response = await fetch('https://mk-gigdata-serverless.vercel.app/api/getGigs');
     if (!response.ok) {
         throw new Error('Network response was not ok.');
     }
