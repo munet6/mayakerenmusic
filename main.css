@@ -33,9 +33,7 @@ body {
   flex-grow: 1; */
 }
 .picColumn {
-  /* background-color: purple; */
-  /* height: 100%;
-  flex-grow: 1; */
+  padding-top: 20px;
 }
 .img-center {
   display: flex;
