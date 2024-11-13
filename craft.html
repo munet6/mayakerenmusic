@@ -2,16 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, , shrink-to-fit=no">
+  <meta name="description" content="website for maya keren">
+  <meta name="author" content="kyle barnes">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>maya keren - craft</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="craft.css">
 </head>
+ 
 <body>
-  <div class="container">
-    <img id="mainImage" src="craftpics/C'mon Everybody Careful.png" alt="Photo Viewer">
-    <p id="caption">Gig poster for Careful In The Sun at C'mon Everybody</p>
-  </div>
+    <div class="container">
 
-  <script src="craft.js"></script>
+      <!-- index menu on the left hand side !-->
+        <div class="col-2 px-5 pl-3 menuColumn">
+        <a href="index.html"><h1 class="py-3 body-kerning home-link">maya keren</h1></a>
+        <br><br>
+        <a href="about.html" class="pl-10 text-link"><h4>about</h4></a>
+        <br><br>
+        <a href="calendar.html" class="pl-10 text-link"><h4>calendar</h4></a>
+        <br><br>
+        <a href="watch.html" class="pl-10 text-link" ><h4>watch</h4></a>
+        <br><br>
+        <a href="listen.html" class="pl-10 text-link" ><h4>listen</h4></a>
+        <br><br>
+        <a href="craft.html" class="pl-10 text-link" ><h4>craft</h4></a>
+        <br><br>
+        <a href="careful.html" class="pl-10 text-link" ><h4><p>&#9728;&#65039;</p></h4></a>
+        <br><br>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzWmj7XT-RhUuAE4sOoTjdPNu7Wh6szPwgctQBmB5I7ngQyw/viewform?embedded=true" width="250" height="240" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <br><br>
+      </div>
+
+      <!-- hopefully, the art slideshow !-->
+      <div class="col-10">
+        <img id="mainImage" src="craftpics/C'mon Everybody Careful.png" alt="Photo Viewer">
+        <p id="caption">Gig poster for Careful In The Sun at C'mon Everybody</p>
+      </div>
+      
+   </div>
+      
+    <script src="craft.js"></script>
 </body>
 </html>
