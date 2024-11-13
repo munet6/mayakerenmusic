@@ -1,17 +1,17 @@
 // List of images and their captions
 const images = [
-  "img/craftpics/photo1.jpg",
-  "img/craftpics/photo2.jpg",
-  "img/craftpics/photo3.jpg",
-  "img/craftpics/photo4.jpg",
+  "img/craftpics/C'mon Everybody Careful.png",
+  "img/craftpics/sperm spoon front.jpg",
+  "img/craftpics/sperm spoon back.jpg",
+  "img/craftpics/bell hat 1.jpg",
   // Add more image file paths as needed
 ];
 
 const captions = [
-  "Photo 1",
-  "Photo 2",
-  "Photo 3",
-  "Photo 4",
+  "Gig poster for Careful In The Sun at C'mon Everybody",
+  "Reluctantly/retroactively titled Sperm Spoon, for isa, front",
+  "Reluctantly/retroactively titled Sperm Spoon, for isa, back",
+  "Crocheted bell hat, modeled by Kyle",
   // Add corresponding captions for each image
 ];
 
