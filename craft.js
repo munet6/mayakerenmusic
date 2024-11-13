@@ -1,9 +1,9 @@
 // List of images and their captions
 const images = [
-  "img/craftpics/C'mon Everybody Careful.png",
-  "img/craftpics/sperm spoon front.jpg",
-  "img/craftpics/sperm spoon back.jpg",
-  "img/craftpics/bell hat 1.jpg",
+  "craftpics/C'mon Everybody Careful.png",
+  "craftpics/sperm spoon front.jpg",
+  "craftpics/sperm spoon back.jpg",
+  "craftpics/bell hat 1.jpg",
   // Add more image file paths as needed
 ];
 
