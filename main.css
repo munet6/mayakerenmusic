@@ -28,13 +28,20 @@ body {
     text-decoration: none;
   }
 .menuColumn {
-  /* background-color: red; */
-  /* height: 100%;
-  flex-grow: 1; */
+    position: fixed;
+    top: 0; /* Adjust if you want the menu to have some space from the top */
+    left: 0;
+    width: 180px; /* Set a fixed width for the left menu column */
 }
 .picColumn {
-  padding-top: 30px;
+    margin-left: 200px; /* Match this to the width of .menuColumn plus some space */  
+    padding-top: 30px;
+    max-width: 100%; /* Limits the width of the photo slideshow column */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 .img-center {
   display: flex;
   justify-content: center;
