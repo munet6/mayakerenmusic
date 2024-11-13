@@ -8,7 +8,7 @@ const images = [
   "craftpics/Careful Sisters.jpg",
   "craftpics/crochet tank 1.jpg",
   "craftpics/crochet tank 2.jpg",
-  "craftpics/Careful Spring Tour.jpg",
+  "craftpics/Careful Spring Tour.png",
   "craftpics/feather hat.jpg",
   "craftpics/feather hat model.jpg",
   "craftpics/Lesley Stone.png",
