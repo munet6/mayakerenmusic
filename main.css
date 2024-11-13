@@ -18,24 +18,6 @@ body {
     100% { background-position: 0% 0%; }
 }
 
-/*
-/* old code!! */
-  body {
-    /* background: linear-gradient(236deg, #e9f7e3, #a5c199, #e6f5e0); */
-    background: linear-gradient(236deg, #cebaf5, #babef5, #badbf5);
-    /* background: #cebaf5; */
-    background-size: 600% 600%;
-
-    animation: background-1 15s ease infinite;
-}
-
-@keyframes background-1 {
-    0%{background-position:0% 9%}
-    50%{background-position:100% 92%}
-    100%{background-position:0% 9%}
-}
-*/
-
   a {
     color: black;
     font-weight: bold;
