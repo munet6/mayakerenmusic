@@ -1,9 +1,9 @@
 // List of images and their captions
 const images = [
-  "img/photo1.jpg",
-  "img/photo2.jpg",
-  "img/photo3.jpg",
-  "img/photo4.jpg",
+  "img/craftpics/photo1.jpg",
+  "img/craftpics/photo2.jpg",
+  "img/craftpics/photo3.jpg",
+  "img/craftpics/photo4.jpg",
   // Add more image file paths as needed
 ];
 
