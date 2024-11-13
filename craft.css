@@ -18,8 +18,8 @@ body {
 }
 
 #mainImage {
-  max-width: 80%;
-  max-height: 80vh;
+  max-width: 90%;
+  max-height: 90vh;
   cursor: pointer;
 }
 
