@@ -21,7 +21,7 @@ const images = [
 ];
 
 const captions = [
-  "Gig poster for Careful In The Sun at C'mon Everybody (colored pencil, pen)",
+  "Gig poster for Careful In The Sun at C'mon Everybody (colored pencil, pen) - click for more",
   "Handcarved, reluctantly/retroactively titled Sperm Spoon, for isa, front",
   "Sperm Spoon, back",
   "Crocheted mohair bell hat, modeled by Kyle",
