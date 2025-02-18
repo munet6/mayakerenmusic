@@ -17,6 +17,7 @@ const images = [
   "craftpics/Duo Bar Sundown.jpg",
   "craftpics/sweat 1.png",
   "craftpics/sweat detail.png",
+  "craftpics/Careful Closeup Poster.png",
   // Add more image file paths as needed
 ];
 
@@ -38,6 +39,7 @@ const captions = [
   "Gig poster for Maya Keren/Emmanuel Michael at Bar Sundown (colored pencil, marker)",
   "Visible sashiko mend to a burn hole in my favorite sweatshirt",
   "Mend detail",
+  "Gig poster for Careful In The Sun at Closeup (marker)",
   // Add corresponding captions for each image
 ];
 
