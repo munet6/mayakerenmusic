@@ -18,6 +18,10 @@ const images = [
   "craftpics/sweat 1.png",
   "craftpics/sweat detail.png",
   "craftpics/Careful Closeup Poster.png",
+  "craftpics/lefthand.jpg",
+  "craftpics/cobynecklace.jpg",
+  "craftpics/camiring.png",
+  "craftpics/ricochetbracelet.jpg",
   // Add more image file paths as needed
 ];
 
@@ -40,6 +44,10 @@ const captions = [
   "Visible sashiko mend to a burn hole in my favorite sweatshirt",
   "Mend detail",
   "Gig poster for Careful In The Sun at Closeup (marker)",
+  "Dowsing hand charm (copper)",
+  "Graduation shard necklace for Coby (silver)",
+  "Ring for Cami (silver)",
+  "Ricochet bracelet (copper, finished with liver of sulphur)",
   // Add corresponding captions for each image
 ];
 
