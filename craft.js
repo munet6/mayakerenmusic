@@ -20,7 +20,7 @@ const images = [
   "craftpics/Careful Closeup Poster.png",
   "craftpics/lefthand.jpg",
   "craftpics/cobynecklace.jpg",
-  "craftpics/camiring.png",
+  "craftpics/camiring.jpg",
   "craftpics/ricochetbracelet.jpg",
   // Add more image file paths as needed
 ];
