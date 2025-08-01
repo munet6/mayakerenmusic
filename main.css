@@ -28,11 +28,10 @@ body {
     text-decoration: none;
   }
 .menuColumn {
-    position: relative;
+    position: fixed;
     top: 0; /* Adjust if you want the menu to have some space from the top */
     left: 0;
     width: 180px; /* Set a fixed width for the left menu column */
-    z-index: 10;
 }
 
 .picColumn {
@@ -42,8 +41,6 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
-    z-index: 1;
 }
 
 .img-center {
