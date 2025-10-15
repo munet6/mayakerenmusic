@@ -31,3 +31,40 @@ body {
   text-align: center;
 }
 
+
+.slideshow-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+/* adding in the arrows for the craftpics viewer */
+
+.slideshow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between arrows and image */
+}
+
+.slideshow-container {
+  display: inline-block;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  color: #333;                 /* default arrow color */
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.25s ease;
+}
+
+.nav-arrow:hover {
+  color: #888;                 /* light grey on hover */
+}
+
+.nav-arrow i {
+  pointer-events: none;       /* so clicks hit the button itself */
+}

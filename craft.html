@@ -20,7 +20,7 @@
       <div class="row">
 
         <!-- index menu on the left hand side !-->
-          <div class="col-2 px-5 pl-3 menuColumn">
+          <div class="col-1 px-5 pl-3 menuColumn">
           <a href="index.html"><h1 class="py-3 body-kerning home-link">maya keren</h1></a>
           <br><br>
           <a href="about.html" class="pl-10 text-link"><h4>about</h4></a>
@@ -36,10 +36,18 @@
           <a href="careful.html" class="pl-10 text-link" ><h4><p>&#9728;&#65039;</p></h4></a>      
         </div>
   
-        <!-- hopefully, the art slideshow !-->
-        <div class="col-10 picColumn">
-          <img id="mainImage" src="craftpics/C'mon Everybody Careful.png" alt="Photo Viewer">
-          <p id="caption">Gig poster for Careful In The Sun at C'mon Everybody - click for more</p>
+        <!-- hopefully, the art slideshow, with arrows on either side !-->
+        <div class="col-11 picColumn">
+          <div class="slideshow-wrapper">
+            <button class="nav-arrow left-arrow" onclick="showPrevImage()">&#5647;</button>
+  
+            <div class="slideshow-container">
+              <img id="mainImage" src="craftpics/C'mon Everybody Careful.png" alt="Photo Viewer">
+            </div>
+
+            <button class="nav-arrow right-arrow" onclick="showNextImage()">&#5648;</button>
+          </div>
+          <p id="caption">Gig poster for Careful In The Sun at C'mon Everybody</p>
         </div>
 
       </div>

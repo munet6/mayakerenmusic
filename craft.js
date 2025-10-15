@@ -17,16 +17,11 @@ const images = [
   "craftpics/Duo Bar Sundown.jpg",
   "craftpics/sweat 1.png",
   "craftpics/sweat detail.png",
-  "craftpics/Careful Closeup Poster.png",
-  "craftpics/lefthand.jpg",
-  "craftpics/cobynecklace.jpg",
-  "craftpics/camiring.jpg",
-  "craftpics/ricochetbracelet.jpg",
   // Add more image file paths as needed
 ];
 
 const captions = [
-  "Gig poster for Careful In The Sun at C'mon Everybody (colored pencil, pen) - click for more",
+  "Gig poster for Careful In The Sun at C'mon Everybody (colored pencil, pen)",
   "Handcarved, reluctantly/retroactively titled Sperm Spoon, for isa, front",
   "Sperm Spoon, back",
   "Crocheted mohair bell hat, modeled by Kyle",
@@ -43,11 +38,6 @@ const captions = [
   "Gig poster for Maya Keren/Emmanuel Michael at Bar Sundown (colored pencil, marker)",
   "Visible sashiko mend to a burn hole in my favorite sweatshirt",
   "Mend detail",
-  "Gig poster for Careful In The Sun at Closeup (marker)",
-  "Dowsing hand charm (copper)",
-  "Graduation shard necklace for Coby (silver)",
-  "Ring for Cami (silver)",
-  "Ricochet bracelet (copper, finished with liver of sulphur)",
   // Add corresponding captions for each image
 ];
 
@@ -56,6 +46,13 @@ let currentIndex = 0;
 // Function to load the next image and update caption
 function showNextImage() {
   currentIndex = (currentIndex + 1) % images.length;
+  document.getElementById("mainImage").src = images[currentIndex];
+  document.getElementById("caption").textContent = captions[currentIndex];
+}
+
+// Function to go to the previous image, connected to the nav arrows
+function showPrevImage() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
   document.getElementById("mainImage").src = images[currentIndex];
   document.getElementById("caption").textContent = captions[currentIndex];
 }
