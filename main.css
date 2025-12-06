@@ -53,6 +53,7 @@ body {
 .row-spaced {
   display: flex;
   justify-content: center;
+    align-items: center; /* hoping this centers the album image vertically in the row */
     gap: 100px;
 }
   .text-link {
