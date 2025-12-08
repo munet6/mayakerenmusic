@@ -130,6 +130,13 @@ body {
     left: 1%;
   }
 
+    .contact-info-middle {
+    position: fixed;
+    bottom: 0%;
+    left: 40%;
+    padding-bottom: 20px;
+  }
+
   .title-kerning {
     letter-spacing: .5em;
   }
