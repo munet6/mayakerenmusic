@@ -50,14 +50,14 @@ const captions = [
   "Mend detail",
   "Gig poster for Rahul Carlberg/Maya Keren at Roulette (watercolor marker, pen)",
   "Gig poster for Careful In The Sun at Studio 34 (watercolor marker)",
-  "Ricochet bracelet (silver finished with liver of sulphur)"
-  "Left hand dowsing charm (copper)"
-  "Gig poster for Careful In The Sun at Closeup (marker, photo collage)"
-  "Graduation necklace for Coby (silver)"
-  "Ring for cami (silver)"
-  "Travel altar and incense holder Slow Burn Merch, indigo colorway (silk, cotton, mohair, copper)"
-  "Travel altar and incense holder Slow Burn Merch, lilac colorway (silk, cotton, mohair, copper)"
-  "Travel altars looking pretty"
+  "Ricochet bracelet (silver finished with liver of sulphur)",
+  "Left hand dowsing charm (copper)",
+  "Gig poster for Careful In The Sun at Closeup (marker, photo collage)",
+  "Graduation necklace for Coby (silver)",
+  "Ring for cami (silver)",
+  "Travel altar and incense holder Slow Burn Merch, indigo colorway (silk, cotton, mohair, copper)",
+  "Travel altar and incense holder Slow Burn Merch, lilac colorway (silk, cotton, mohair, copper)",
+  "Travel altars looking pretty",
     
   // Add corresponding captions for each image
 ];
