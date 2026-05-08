@@ -19,6 +19,14 @@ const images = [
   "craftpics/sweat detail.png",
   "craftpics/Roulette Threadgill Poster.png",
   "craftpics/Studio 34 Poster Vertical.png",
+  "craftpics/ricochetbracelet.jpg",
+  "craftpics/lefthand.jpg",
+  "craftpics/Careful Closeup Poster.png",
+  "craftpics/cobynecklace.jpg",
+  "craftpics/camiring.jpg",
+  "craftpics/merch1.JPG",
+  "craftpics/merch2.JPG",
+  "craftpics/merch3.JPG",
   // Add more image file paths as needed
 ];
 
@@ -42,6 +50,15 @@ const captions = [
   "Mend detail",
   "Gig poster for Rahul Carlberg/Maya Keren at Roulette (watercolor marker, pen)",
   "Gig poster for Careful In The Sun at Studio 34 (watercolor marker)",
+  "Ricochet bracelet (silver finished with liver of sulphur)"
+  "Left hand dowsing charm (copper)"
+  "Gig poster for Careful In The Sun at Closeup (marker, photo collage)"
+  "Graduation necklace for Coby (silver)"
+  "Ring for cami (silver)"
+  "Travel altar and incense holder Slow Burn Merch, indigo colorway (silk, cotton, mohair, copper)"
+  "Travel altar and incense holder Slow Burn Merch, lilac colorway (silk, cotton, mohair, copper)"
+  "Travel altars looking pretty"
+    
   // Add corresponding captions for each image
 ];
 
